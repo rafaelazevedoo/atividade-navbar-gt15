@@ -125,4 +125,18 @@ img {
 }
 
 
+.nossos-veiculos .abas-veiculos {
+    display: none;
+    list-style: none;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #f9f9f9; 
+    border: 1px solid #ddd; 
+    position: absolute;
+    left: 0;
+    top: 100%; 
+}
 
+.nossos-veiculos:hover .abas-veiculos {
+    display: block; 
+}
